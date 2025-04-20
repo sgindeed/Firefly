@@ -2,15 +2,15 @@ const { MongoClient } = require("mongodb");
 const nodemailer = require("nodemailer");
 
 // 🔐 MongoDB Configuration
-const mongoUri = "mongodb+srv://User1:ELZxNOZWSLLF6eZx@cluster0.hv37n7o.mongodb.net/fire_detection_db?retryWrites=true&w=majority&appName=Cluster0";
-const dbName = "fire_detection_db";
+const mongoUri = "MONGODB_CLUSTER_URL";
+const dbName = "DATABASE_NAME";
 const usersCollection = "users";
 const fireLogsCollection = "fire_logs";
 
 // 📧 Email Configuration
-const emailUser = "anny14062110@gmail.com";
-const emailPass = "vcdgnodeeklwtfsq";
-const adminEmail = "sgindeed234@gmail.com";
+const emailUser = "SENDER_EMAIL";
+const emailPass = "GAMIL_APP_PASSWORD";
+const adminEmail = "ADMIN_EMAIL";
 
 // ✅ MongoDB Client
 const client = new MongoClient(mongoUri);
