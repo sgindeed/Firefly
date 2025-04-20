@@ -158,7 +158,7 @@ This project is licensed under the [MIT License](https://github.com/sgindeed/Fir
 ## 🙏 Acknowledgements
 
 * We extend our gratitude to the open-source community for providing the tools and libraries that made this project possible.
-* Special thanks to the TensorFlow, Keras, FastAPI, Node.js, and MongoDB communities.
+* Special thanks to the kaggle, TensorFlow, Keras, FastAPI, Node.js, and MongoDB communities.
 
 ## 📧 Contact
 
