@@ -27,7 +27,7 @@ app.use('/api', authRoutes);
 
 
 // Constants
-const JWT_SECRET = process.env.JWT_SECRET || "87fc898c2cfd0345e75ad3a3f24f2507b53f4913fc340521d2aae0e403c5fef6";
+const JWT_SECRET = process.env.JWT_SECRET || "JWT_SECRET_KEY";
 const MONGO_URI = process.env.MONGO_URI;
 
 // MongoDB Connection
